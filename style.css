@@ -1,0 +1,142 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFA500;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* Intro Section */
+.intro {
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-image img {
+    max-width: 400px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #FFA500;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Contact Us Section */
+.contact {
+    text-align: left;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    color: #FFA500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFA500;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Table Section */
+.table-section {
+    padding: 50px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #FFA500;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFA500;
+    color: black;
+}
+
+tfoot {
+    background-color: #FFA500;
+    font-weight: bold;
+}
